@@ -12,7 +12,7 @@ class Application extends Component {
             <div className="max-w-screen-xl mx-auto">
                 <BrowserRouter>
                     <Routes>
-                        <Route exact path="/" element={<Home />}/>
+                        <Route exact path="/Portfolio/" element={<Home />}/>
                     </Routes>
                 </BrowserRouter>            
             </div>
