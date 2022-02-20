@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+
+    * {
+        box-sizing: border-box;
+    }
+    .clip-corner {
+        clip-path: polygon(0 0, 100% 0, 100% 40vh, 0 100%)
+    }
+
+    .btn::after {
+        content: "";
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+        border-radius: 999px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        transition: all .3s;
+        background-color: white;
+    }
+}
+
+body {
+    @apply font-hind font-normal text-gray-777;
+}
+
+.btn:link, .btn:visited {
+    @apply uppercase no-underline rounded-full
+    py-4 px-10 inline-block transition-all 
+    duration-200 relative;
+}
+.scrolledToStickyNav {
+    @apply fixed w-full;
+    z-index: 9;
+    top: 0;
+}
+
+.btn:hover {
+    @apply transform -translate-y-1 shadow-lg;
+}
+
+.btn:active {
+    @apply transform -translate-y-px shadow-md;
+}
+.bt {
+    border-top: 1px solid rgba(216,216,216,1.0);
+}
