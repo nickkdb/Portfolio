@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.e44d6c12.css",
+    "main.js": "/portfolio/static/js/main.c607e1b5.js",
+    "static/js/787.c1112931.chunk.js": "/portfolio/static/js/787.c1112931.chunk.js",
+    "static/media/coder.png": "/portfolio/static/media/coder.832b58cd3e4039687b96.png",
+    "static/media/student.png": "/portfolio/static/media/student.d21dd3d9bc83c998b5d4.png",
+    "static/media/nicolasborges-resume.pdf": "/portfolio/static/media/nicolasborges-resume.0173c82c00c28d16d5d9.pdf",
+    "static/media/teamwork.png": "/portfolio/static/media/teamwork.bb828b27dc0705b8e4bf.png",
+    "index.html": "/portfolio/index.html",
+    "main.e44d6c12.css.map": "/portfolio/static/css/main.e44d6c12.css.map",
+    "main.c607e1b5.js.map": "/portfolio/static/js/main.c607e1b5.js.map",
+    "787.c1112931.chunk.js.map": "/portfolio/static/js/787.c1112931.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e44d6c12.css",
+    "static/js/main.c607e1b5.js"
+  ]
+}
